@@ -1,6 +1,32 @@
 {
-  "boards": [],
-  "tasks": [],
+  "boards": [
+    {
+      "name": "board",
+      "user": 0,
+      "id": 83937910729,
+      "starred": false,
+      "created": "2024-02-09"
+    }
+  ],
+  "tasks": [
+    {
+      "boardId": 83937910729,
+      "description": "",
+      "completed": false,
+      "listId": 9372926977,
+      "title": "task",
+      "id": 22227302966,
+      "created": "2024-02-09",
+      "deadline": "2024-02-12"
+    }
+  ],
   "users": [],
-  "lists": []
+  "lists": [
+    {
+      "boardId": 83937910729,
+      "title": "list",
+      "id": 9372926977,
+      "created": "2024-02-09"
+    }
+  ]
 }

@@ -3,7 +3,7 @@
 beforeEach(() => {
 
   cy
-    .visit('/board/2305140181')
+    .visit('/board/83937910729')
 })
 
 it('Chaining commands', () => {

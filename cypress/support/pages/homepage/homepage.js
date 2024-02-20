@@ -1,13 +1,18 @@
 const el = require('./elements').ELEMENTS
 
 class Homepage {
-    goToHome(){
+    goBack(){
         cy.visit('/')
     }
+
     createNewBoard(board){
         cy.get(el.newBoard).click()
         cy.get(el.newBoardInput).type(board)
         cy.get(el.newBoardCreate).click()
+    }
+
+    getBoards(){
+        cy.get(el.boards)
     }
 
     starBoard(){
@@ -22,8 +27,6 @@ class Homepage {
             .get('#tools')
             .contains(element)
             .click({force: true})
-        //returns to homepage
-        cy.visit('/')
     }
 }
 

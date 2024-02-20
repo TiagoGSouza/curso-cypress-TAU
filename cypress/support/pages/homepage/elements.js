@@ -3,5 +3,5 @@ export const ELEMENTS = {
     newBoardInput: '[data-cy="new-board-input"]',
     newBoardCreate: '[data-cy="new-board-create"]',
     boardsStars: '[data-cy="star"]',
-    boardsTitles: '.board_title'
+    boards: '[data-cy="board-item"]'
 }
